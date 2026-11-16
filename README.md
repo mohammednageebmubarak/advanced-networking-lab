@@ -1,5 +1,7 @@
 # Advanced Networking Visual Lab
 
+**[Open the live lab](https://mohammednageebmubarak.github.io/advanced-networking-lab/)**
+
 An English-language, dependency-free browser lab for Chapter 7, Data Link Control Protocols.
 
 ## Sources and lesson map
@@ -20,12 +22,6 @@ Serve this directory over HTTP, for example with `python -m http.server 8000`, a
 In the browser, try the loss options, change the slider and window, and verify the frame inspector and stuffing controls. At mobile width, enter a lesson and exercise both the chapter-outline link and the browser Back button. Hash links can be shared directly.
 
 The flow trace idealizes ACK serialization and processing delay as zero. Its utilization estimates assume a sustained stream. The comparison uses one window, in-order arrivals apart from a single first-attempt loss, and immediate recovery once feedback arrives. Both paths display retransmission counts separately.
-
-## Publish on GitHub Pages
-
-Use the repository `mohammednageebmubarak/advanced-networking-lab`. Put these files at the root of `main`, including `.nojekyll`. In **Settings → Pages**, choose **Deploy from a branch**, then **main** and **/(root)**. Save and check the Pages deployment in **Actions**.
-
-Open [the Pages URL](https://mohammednageebmubarak.github.io/advanced-networking-lab/) once deployment succeeds and repeat the browser checks against that URL.
 
 ## Source files
 
